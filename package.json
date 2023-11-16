@@ -1,0 +1,29 @@
+{
+  "name": "task-management-system",
+  "version": "1.0.0",
+  "description": "A RESTful API for a Task Management System using MongoDB, Express, and Node.js",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "dotenv": "^8.2.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "RESTful API",
+    "Task Management",
+    "MongoDB",
+    "Express",
+    "Node.js"
+  ],
+  "author": "",
+  "license": "ISC"
+}
